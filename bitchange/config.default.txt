@@ -1,0 +1,26 @@
+-- General configuration - BitChange
+-- Do NOT change your settings in "config.default.txt"
+
+bitchange.initial_give			= 10
+-- Enable/Disable whole nodes
+bitchange.enable_exchangeshop		= false
+bitchange.enable_moneychanger		= false
+bitchange.enable_warehouse		= true
+bitchange.enable_toolrepair		= false
+bitchange.enable_donationbox		= true
+
+-- Converting other ores to MineCoins
+-- Tin		moreores
+-- Zinc		technic_worldgen
+-- Quartz	quartz
+bitchange.use_moreores_tin		= false
+bitchange.use_technic_zinc		= false
+bitchange.use_quartz			= false
+
+-- Pipeworks support
+bitchange.exchangeshop_pipeworks	= false
+bitchange.warehouse_pipeworks		= false
+
+-- Advanced generation settings
+-- Change in 'minecoins.lua', starting at line 101
+bitchange.enable_generation		= false
